@@ -1,11 +1,3 @@
---[[                                    Dev @lIMyIl         
-   _____    _        _    _    _____    Dev @EMADOFFICAL 
-  |_   _|__| |__    / \  | | _| ____|   Dev @h_k_a  
-    | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI
-    | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173
-    |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl
-              CH > @TshAkETEAM
---]]
 serpent = require('serpent')
 serp = require 'serpent'.block
 http = require("socket.http")
@@ -1856,7 +1848,7 @@ end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 
-if text == 'تشاكي' then 
+if text == 'هوك' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
 moody = 'نـﮧ✥ـٍعٰٓـ๋͜م تفضل🕷❤️'
 else 
@@ -8491,24 +8483,18 @@ end
 if text:match("^source$") or text:match("^اصدار$") or text:match("^الاصدار$") or text:match("^السورس$") or text:match("^سورس$") then
    
    local text =  [[
-<code>اهلا بك في سورس تشاكي</code>
+<code>اهلا وسهلا بك في سورس هوك</code>
 
 <code>المطورين : </code>
 
-<b>Dev | </b>@lIMyIl
-<b>Dev | </b>@IX00XI
-<b>Dev | </b>@lIESIl
-<b>Dev | </b>@H_173
-<b>Dev | </b>@h_k_a
-<b>Dev | </b>@EMADOFFICAL
-
+<b>Dev | </b>G0vip
 <code>قناه السورس : </code>
 
-<b>Channel | </b>@lTSHAKEl_CH
+<b>Channel | </b>@hlusat
 
 <code>رابط Github :</code>
 
-https://github.com/moodlIMyIl/TshAkE
+https://github.com/d3vsaipa/hook
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'html')
    end
@@ -8649,12 +8635,3 @@ end
   end
   -----------------------------------------------------------------------------------------------
 end
-
---[[                                    Dev @lIMyIl         
-   _____    _        _    _    _____    Dev @EMADOFFICAL 
-  |_   _|__| |__    / \  | | _| ____|   Dev @h_k_a  
-    | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI
-    | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173
-    |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl
-              CH > @TshAkETEAM
---]]
