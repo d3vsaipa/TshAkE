@@ -20,7 +20,7 @@ chmod +x install.sh
 
 او نصب بكود واحد
 
-git clone https://github.com/d3vsaipa/hook.git && cd TshAkE && chmod +x install.sh && ./install.sh
+git clone https://github.com/d3vsaipa/hook.git && cd hook && chmod +x install.sh && ./install.sh
 
 ● وراح يطلب منك تحط اما y او n تختار دائما y وانتر ●
 
